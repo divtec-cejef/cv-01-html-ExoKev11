@@ -20,7 +20,7 @@ header {
     text-align: center;
     width: 100%;
     font-weight: bold;
-    position: fix;
+    position: static;
     top: 0;
     left: 0;
     right: 0;
