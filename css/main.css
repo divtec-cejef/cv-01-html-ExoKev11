@@ -8,6 +8,15 @@ h2 {
     font-weight: bold;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    border-top: 2px solid white ;
+    padding: 1em 0;
+}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -32,10 +41,13 @@ img {
 }
 
 a {
-    color: deeppink;
+    color: hsl(300, 25%, 55%);
     text-decoration: none;
+    transition: all 300ms ease-in-out;
 }
 
-a:hover {
-    color: darkmagenta;
+a:hover{
+    text-decoration: underline;
+    color: hsl(300, 76%, 80%);
+
 }
