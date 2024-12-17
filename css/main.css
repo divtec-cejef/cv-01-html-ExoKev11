@@ -11,7 +11,7 @@ header nav ul{
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
     width: 100%;
     font-weight: bold;
 }
@@ -20,7 +20,7 @@ header {
     text-align: center;
     width: 100%;
     font-weight: bold;
-    position: fixed;
+    position: fix;
     top: 0;
     left: 0;
     right: 0;
