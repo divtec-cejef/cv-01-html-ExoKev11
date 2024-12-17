@@ -2,13 +2,27 @@
     box-sizing: border-box;
 }
 
+h2 {
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.4;
-    color: darkblue;
-    background-color: whitesmoke;
+    color: white;
+    background-color: #23272a;
+}
+
+main {
+    padding-top: 6em;
+    min-height: 100vh;
+    max-width: 1200px; 
+    margin: 0 auto;
 }
 
 img {
