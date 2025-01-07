@@ -1,6 +1,14 @@
+/*TODO faire une branche mon-cv-css*/
+/*TODO faire le @font-face*/
+/*TODO modifier la taille d'un texte avec un em*/
+/*TODO l'image doit être une background-image*/
+/*TODO centrer le contenu de la page horizontalement*/
+/*TODO attribuer une valeur maximale de la page*/
+
 body, * {
     font-family: Arial, sans-serif;
     box-sizing: border-box;
+    text-aligne: center;
 }
 
 header nav ul{
@@ -29,10 +37,10 @@ header {
     box-shadow: 0 0 12px -2px black;
 }
 
-Bienvenu {
+/*TODO renommer la classe*/
+bienvenu {
     width: 100%;
     max-width: 2000px;
-    
     text-align: center;
 }
 
