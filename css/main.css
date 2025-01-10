@@ -1,6 +1,9 @@
 /*TODO modifier la taille d'un texte avec un em*/
 /*TODO l'image doit être une background-image*/
 /*TODO centrer le contenu de la page horizontalement*/
+/*TODO modifier la taille d'un texte avec un em*/
+/*TODO l'image doit être une background-image*/
+/*TODO centrer le contenu de la page horizontalement*/
 
 body, * {
     font-family: Arial, sans-serif;
@@ -62,6 +65,8 @@ main {
     min-height: 100vh;
     max-width: 1200px; 
     margin: 0 auto;
+    text-align: center;
+    list-style: none;
 }
 
 footer {
