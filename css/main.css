@@ -1,10 +1,6 @@
-/*TODO faire une branche mon-cv-css*/
-/*TODO faire le @font-face*/
 /*TODO modifier la taille d'un texte avec un em*/
 /*TODO l'image doit être une background-image*/
 /*TODO centrer le contenu de la page horizontalement*/
-/*TODO attribuer une valeur maximale de la page*/
-
 
 body, * {
     font-family: Arial, sans-serif;
@@ -84,13 +80,13 @@ img {
 }
 
 a {
-    color: hsl(300, 25%, 55%);
+    color: hsl(40, 100%, 45%);
     text-decoration: none;
     transition: all 300ms ease-in-out;
 }
 
 a:hover{
     text-decoration: underline;
-    color: hsl(300, 76%, 80%);
+    color: hsl(360, 236%, 70%);
 
 }
