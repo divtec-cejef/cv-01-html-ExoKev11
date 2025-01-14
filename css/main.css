@@ -1,6 +1,5 @@
 
 /*TODO modifier la taille d'un texte avec un em*/
-/*TODO l'image doit être une background-image*/
 /*TODO centrer le contenu de la page horizontalement*/
 
 body, * {
@@ -9,7 +8,6 @@ body, * {
     text-align: center;
     max-width: 600px;
     font-size: 12px;
-
 }
 
 img {
