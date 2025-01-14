@@ -13,8 +13,8 @@ body, * {
 
 img {
     background-image: url(android-chrome-512x512.png);
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: top;
 }
 
 header nav ul{
