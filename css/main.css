@@ -10,8 +10,9 @@ header {
     right: 0;
     height: 6em;
     padding: 1em;
-    background-color: #23272a;
+    background-color: #2f3437;
     box-shadow: 0 0 8px -2px black;
+    border-bottom-color: #eff4f4;
 }
 
 
@@ -20,14 +21,14 @@ h1 {
 }
 
 a {
-    color: hsl(300, 80%, 55%);
+    color: hsl(2, 90%, 52%);
     text-decoration: none;
     transition: all 300ms ease-in-out;
 }
 
 a:hover{
     text-decoration: underline;
-    color: hsl(300, 320%, 80%);
+    color: hsl(109, 90%, 47%);
 
 }
 
@@ -68,7 +69,7 @@ h2 {
     text-align: center;
 }
 h3 {
-    text-align: left;
+    text-align: center;
     width: 100%;
 }
 
