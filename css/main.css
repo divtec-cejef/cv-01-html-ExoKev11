@@ -1,19 +1,33 @@
 
-/*TODO modifier la taille d'un texte avec un em*/
-/*TODO l'image doit être une background-image*/
-/*TODO centrer le contenu de la page horizontalement*/
-/*TODO modifier la taille d'un texte avec un em*/
-/*TODO l'image doit être une background-image*/
-/*TODO centrer le contenu de la page horizontalement*/
 
-body, * {
-    font-family: Arial, sans-serif;
-    box-sizing: border-box;
+header {
     text-align: center;
+    width: 100%;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6em;
+    padding: 1em;
+    background-color: #23272a;
+    box-shadow: 0 0 8px -2px black;
 }
 
-img {
-    src: url()
+
+h1 {
+    font-size: 2.5rem;
+}
+
+a {
+    color: hsl(300, 80%, 55%);
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: hsl(300, 320%, 80%);
 
 }
 
@@ -24,47 +38,37 @@ header nav ul{
     font-size: 1.2rem;
 }
 
+body, * {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #23272a;
+    color: white;
+}
+main {
+    padding-top: 6em;
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 h2 {
     text-align: center;
     width: 100%;
     font-weight: bold;
 }
 
-header {
-    text-align: center;
-    width: 100%;
-    font-weight: bold;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 6em;
-    padding: 1em;
-    background-color: #151515;
-    box-shadow: 0 0 12px -2px black;
-}
-
 .bienvenu {
     width: 100%;
     max-width: 2000px;
+
     text-align: center;
 }
-
-body {
-    font-family: Arial, sans-serif;
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.4;
-    color: white;
-    background-color: #232323;
-}
-
-main {
-    padding-top: 6em;
-    min-height: 100vh;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-    text-decoration: none;
+h3 {
+    text-align: left;
+    width: 100%;
 }
 
 footer {
@@ -74,22 +78,4 @@ footer {
     align-items: center;
     border-top: 2px solid white ;
     padding: 1em 0;
-}
-
-img {
-    max-width: 25%;
-    height: auto;
-    width: auto;
-}
-
-a {
-    color: hsl(40, 100%, 45%);
-    text-decoration: none;
-    transition: all 300ms ease-in-out;
-}
-
-a:hover{
-    text-decoration: underline;
-    color: hsl(360, 236%, 70%);
-
 }
