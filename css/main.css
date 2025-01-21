@@ -10,9 +10,6 @@ body, * {
     font-family: Arial, sans-serif;
     box-sizing: border-box;
     text-align: center;
-    max-width: 600px;
-    font-size: 12px;
-
 }
 
 img {
@@ -46,7 +43,7 @@ header {
     box-shadow: 0 0 12px -2px black;
 }
 
-bienvenu {
+.bienvenu {
     width: 100%;
     max-width: 2000px;
     text-align: center;
@@ -67,7 +64,7 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-    list-style: none;
+    text-decoration: none;
 }
 
 footer {
