@@ -52,6 +52,7 @@ main {
     min-height: 100vh;
     max-width: 1200px;
     margin: 0 auto;
+    list-style: none;
 }
 
 h2 {
